@@ -16,6 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- MyService-->
+        <service android:name=".MyService"/>
+
+        <!-- MyBroadcastReceiver-->
+        <receiver android:name=".MyBroadcastReceiver"/>
+
     </application>
 
 </manifest>
